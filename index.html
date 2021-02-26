@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Books Library</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__main">Books Library</h1>
+    </header>
+    <main>
+        <section class="addbtn__container">
+            <button class="btn__new--book btn" id="addBook">New Book</button>
+        </section>
+    
+        <section class="books__container">
+           
+            
+        </section>
+    </main>
+
+    <section class="modal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <form action="" class="modal--form">
+                <h2 class="form--header">Book Details</h2>
+                <input type="text" placeholder="Book Title" name="bookTitle" id="bookTitle" class="book--input">
+                <input type="text" placeholder="Author" name="bookAuthor" id="bookAuthor" class="book--input">
+                <input type="number" placeholder="Number of pages" name="bookNumber" class="book--input" id="bookNumber">
+                <button type="submit" class="btn modal--btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
