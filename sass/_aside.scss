@@ -1,7 +1,31 @@
+.aside__container {
+    // width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .aside {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: .3rem 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width: 17%;
+    height: 35vh;
+    border-radius: 1rem;
+    border: 2px solid var(--twitter-blue-gray);
+    position: fixed;
+    top: 9.5rem;
+    right: 2rem;
+
+    &__header {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 }
