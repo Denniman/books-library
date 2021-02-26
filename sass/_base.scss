@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #fffff2;
+    --twitter-blue-gray: #192734;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.7;
+}
