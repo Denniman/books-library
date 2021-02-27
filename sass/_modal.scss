@@ -1,5 +1,5 @@
 .modal {
-    display: none;
+    // display: none;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -10,7 +10,7 @@
 
 .modal__content {
     width: 40%;
-    height: 40%;
+    height: 45%;
     background-color: var(--twitter-blue-gray);
     position: absolute;
     top: 50%;
@@ -53,10 +53,17 @@
 }
 
 .book--input {
-    width: 50%;
-    padding: .5rem 1.5rem;
+    width: 60%;
+    padding: .375rem .75rem;
     margin-bottom: 1.5rem;
-    border-radius: .5rem;
+    border-radius: .3rem;
+    color: #495057;
+    line-height: 1.7;
+    border: 1px solid #ced4da;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 /* Chrome, Safari, Edge, Opera */
