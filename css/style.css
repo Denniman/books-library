@@ -1,6 +1,8 @@
 :root {
   --color-primary: #fffff2;
-  --twitter-blue-gray: #192734; }
+  --twitter-blue-gray: #192734;
+  --light-pink: #fddcdb;
+  --dark-pink: #f32c26; }
 
 *,
 *::before,
@@ -18,12 +20,18 @@ body {
   font-family: 'Nunito', sans-serif;
   line-height: 1.7; }
 
+.ml-md {
+  margin-left: 3rem; }
+
+.mt-md {
+  margin-top: 3rem; }
+
 .heading__main {
   font-size: 3rem;
   color: var(--twitter-blue-gray); }
 
 .book--title {
-  color: #ff6347;
+  color: var(--dark-pink);
   text-transform: uppercase;
   letter-spacing: .27rem; }
 
@@ -56,7 +64,7 @@ body {
     font-weight: 700; }
 
 .header {
-  background-color: #fddcdb;
+  background-color: var(--light-pink);
   padding: 1.5rem 2rem;
   border-bottom: 2px solid var(--twitter-blue-gray); }
 
@@ -120,8 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 3rem; }
+  align-items: center; }
 
 .card {
   width: 40%;
@@ -201,6 +208,3 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 .book--input {
   -moz-appearance: textfield; }
-
-.ml-medium {
-  margin-left: 3rem; }

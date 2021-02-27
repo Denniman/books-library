@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="heading__main ml-medium">Books Library</h1>
+        <h1 class="heading__main ml-md">Books Library</h1>
     </header>
     <main>
         <section class="addbtn__container">
@@ -25,7 +25,15 @@
             </aside>
         </div>
     
-        <section class="books__container">
+        <section class="books__container mt-md">
+            <article class="card">
+                <h3 class="book--title">Book Title</h3>
+                <p class="paragraph">title</p>
+                <h3 class="book--title">Book Author</h3>
+                <p class="paragraph">author</p>
+                <h3 class="book--title">Book Pages</h3>
+                <p class="paragraph">pages</p>
+            </article>
            
             
         </section>
@@ -36,9 +44,9 @@
             <span class="close">&times;</span>
             <form action="" class="modal--form">
                 <h2 class="form--header">Book Details</h2>
-                <input type="text" placeholder="Book Title" name="bookTitle" id="bookTitle" class="book--input">
-                <input type="text" placeholder="Author" name="bookAuthor" id="bookAuthor" class="book--input">
-                <input type="number" placeholder="Number of pages" name="bookNumber" class="book--input" id="bookNumber">
+                <input type="text" placeholder="Book Title" name="bookTitle" id="bookTitle" class="book--input" required>
+                <input type="text" placeholder="Author" name="bookAuthor" id="bookAuthor" class="book--input" required>
+                <input type="number" placeholder="Number of pages" name="bookNumber" class="book--input" id="bookNumber" required>
                 <button type="submit" class="btn modal--btn">Submit</button>
             </form>
         </div>
