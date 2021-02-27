@@ -57,7 +57,7 @@ body {
 
 .header {
   background-color: #fddcdb;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem 2rem;
   border-bottom: 2px solid var(--twitter-blue-gray); }
 
 .aside__container {
@@ -199,5 +199,8 @@ input::-webkit-inner-spin-button {
   margin: 0; }
 
 /* Firefox */
-input[type=number] {
+.book--input {
   -moz-appearance: textfield; }
+
+.ml-medium {
+  margin-left: 3rem; }

@@ -52,7 +52,6 @@
     cursor: pointer;
 }
 
-
 .book--input {
     width: 50%;
     padding: .5rem 1.5rem;
@@ -68,6 +67,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+.book--input {
   -moz-appearance: textfield;
 }

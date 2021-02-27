@@ -14,10 +14,8 @@
     height: 35vh;
     border-radius: 1rem;
     border: 2px solid var(--twitter-blue-gray);
-    position: fixed;
-    top: 9.5rem;
-    right: 2rem;
-
+    @include positionFixed;
+    
     &__header {
         font-size: 2rem;
         font-weight: 700;
