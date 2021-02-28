@@ -1,5 +1,5 @@
 .modal {
-    // display: none;
+    display: none;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -15,9 +15,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 2rem;
+    border-radius: 1rem;
     transform: translate(-50%, -50%);
     box-shadow: 0 2rem 4rem rgba(0,0,0, .2);
+    animation: fadeInTop .3s ease-out alternate;
 } 
 
 .modal--form {
